@@ -18,6 +18,7 @@ this.
 - [Contributions You Can Make](#-contributions-you-can-make)
 - [Pull Request Steps](#-pull-request-steps)
 - [Task Issues](#-task-issues)
+- [The Town](#-the-town)
 - [Making Your First Contribution](#-making-your-first-contribution)
 - [Code Guidelines](#-code-guidelines)
 - [Reporting a Bug](#-reporting-a-bug)
@@ -131,6 +132,29 @@ Each task issue is labeled with its approximate difficulty level.
 To ensure fair distribution of tasks amongst contributors, **please 
 try to complete tasks labeled with your level of coding experience only** 
 (everyone should have a chance to contribute)
+
+## 🏡 The Town
+
+In the root directory of this repo, you will see `the_town.py`. Add yourself 
+as an instance of `Person` to be part of the town!
+
+Pull request steps:
+1. Fork and clone this repository
+2. **Create a new branch** using the special prefix `town`. Name the branch 
+   `town/add-yourname`.
+    - Replace `yourname` with your name, e.g. `town/add-morpheus`
+3. Commit your changes and push to your remote fork.
+4. Open a pull request
+5. Await approval
+
+You can also open a PR to update, change, or remove any of the code **you** 
+added previously.
+
+### 📜 Town Laws:
+- Only tamper with your own code
+- Don't change other townsfolk's attributes, etc.
+- Don't kill your neighbors (Don't remove `Person` instances other than your 
+  own)
 
 ## 🧰 Making Your First Contribution
 

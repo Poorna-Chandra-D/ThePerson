@@ -42,15 +42,19 @@ Each task issue is labeled with its approximate difficulty level; to ensure
 fair distribution of tasks amongst contributors, **please try to complete tasks 
 labeled with your level of coding experience only**
 
-## 💻 How to use
+## 🏡 Be part of The Town!
 
-To try using the project yourself on your computer, follow these steps.
+In the root directory of this repo, you will see `the_town.py`. Add yourself 
+as an instance of `Person`!
 
-On the [GitHub page][repo]:
-1. Click the green "Code" button
-2. Select "Download ZIP"
-3. Unzip the ZIP file on your machine.
-4. Extract any of the files in `src` to implement in your own projects!
+Read [CONTRIBUTING](.github/CONTRIBUTING.md) to get started (Any PR not 
+following the guidelines under "The Town" will be closed).
+
+### 📜 Town Laws:
+- Only tamper with your own code
+- Don't change other townsfolk's attributes, etc.
+- Don't kill your neighbors (Don't remove `Person` instances other than your 
+  own)
 
 ## ❓ Questions/Requests
 
